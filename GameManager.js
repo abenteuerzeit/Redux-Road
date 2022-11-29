@@ -1,5 +1,5 @@
 // Initial State
-const defaultWagon = {
+export const defaultWagon = {
   supplies: 100,
   distance: 0,
   days: 0,
@@ -7,7 +7,7 @@ const defaultWagon = {
 };
 
 // Redux Reducer for managing the game's state
-const reducer = (state = defaultWagon, action) => {
+export const reducer = (state = defaultWagon, action) => {
   switch (action.type) {
     case "gather":
       return {
