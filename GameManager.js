@@ -1,5 +1,5 @@
 // Initial State
-export const defaultWagon = {
+const defaultWagon = {
   supplies: 100,
   distance: 0,
   days: 0,
